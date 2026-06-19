@@ -22,8 +22,8 @@ header-includes: |
   <meta name="dc.date" content="2026-06-19" />
   <meta name="citation_publication_date" content="2026-06-19" />
   <meta property="article:published_time" content="2026-06-19" />
-  <meta name="dc.modified" content="2026-06-19T21:20:55+00:00" />
-  <meta property="article:modified_time" content="2026-06-19T21:20:55+00:00" />
+  <meta name="dc.modified" content="2026-06-19T22:05:01+00:00" />
+  <meta property="article:modified_time" content="2026-06-19T22:05:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_pdf_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/f78252f56376a59700e0f00caa04f4d248aa373d/" />
-  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/f78252f56376a59700e0f00caa04f4d248aa373d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/f78252f56376a59700e0f00caa04f4d248aa373d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/" />
+  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/f78252f56376a59700e0f00caa04f4d248aa373d/))
+([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/))
 was automatically generated
-from [lagillenwater/fm-pm-eval-manuscript@f78252f](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/f78252f56376a59700e0f00caa04f4d248aa373d)
+from [lagillenwater/fm-pm-eval-manuscript@3828035](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/3828035695d219156db5f0888fad25dcb6a9d540)
 on June 19, 2026.
 </em></small>
 

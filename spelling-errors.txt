@@ -18,7 +18,7 @@ organoid
 organoids
 PDO
 PDTO
-Pre
+pre
 subtype
 transcriptional
 transcriptome
