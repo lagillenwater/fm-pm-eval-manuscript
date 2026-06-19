@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://lagillenwater.github.io/fm-pm-eval-manuscript/>.
-The permalink for this webpage version is <https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/>.
+The permalink for this webpage version is <https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lagillenwater.github.io/fm-pm-eval-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`291cda62d4fd05547ae2c2d0a4d1126355aaf710`](https://github.com/lagillenwater/fm-pm-eval-manuscript/commit/291cda62d4fd05547ae2c2d0a4d1126355aaf710).
+[`9f0414571e3593976e9b535eea2083edf1ac8c5e`](https://github.com/lagillenwater/fm-pm-eval-manuscript/commit/9f0414571e3593976e9b535eea2083edf1ac8c5e).
