@@ -22,8 +22,8 @@ header-includes: |
   <meta name="dc.date" content="2026-06-19" />
   <meta name="citation_publication_date" content="2026-06-19" />
   <meta property="article:published_time" content="2026-06-19" />
-  <meta name="dc.modified" content="2026-06-19T22:05:01+00:00" />
-  <meta property="article:modified_time" content="2026-06-19T22:05:01+00:00" />
+  <meta name="dc.modified" content="2026-06-19T22:11:31+00:00" />
+  <meta property="article:modified_time" content="2026-06-19T22:11:31+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,9 +39,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_pdf_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/" />
-  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/" />
+  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,9 +63,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3828035695d219156db5f0888fad25dcb6a9d540/))
+([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/))
 was automatically generated
-from [lagillenwater/fm-pm-eval-manuscript@3828035](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/3828035695d219156db5f0888fad25dcb6a9d540)
+from [lagillenwater/fm-pm-eval-manuscript@291cda6](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/291cda62d4fd05547ae2c2d0a4d1126355aaf710)
 on June 19, 2026.
 </em></small>
 
@@ -103,9 +103,17 @@ Lucas A. Gillenwater \<lucas.gillenwater@cuanschutz.edu\>.
 
 
 ## Introduction
-The most recent iteration of AI models (‘foundation’ and ‘world’ models) is exciting, and the field is constantly putting out newer, larger models. But the models do not generalize to out of distribution tests and do not outperform more simple models across tasks. For example, Steiner et al. [@doi:10.1145/3701551.3708811] and Ahlmann-Eltze et al. [@doi:10.1038/s41592-025-02772-6] both reported that linear baselines outperformed single-cell foundation models [@doi:10.1038/s41592-024-02201-0; @doi:10.1038/s41586-023-06139-9; @doi:10.1038/s41592-024-02305-7; @doi:10.1038/s41587-023-01905-6; @doi:10.1038/s42256-022-00534-z] on downstream tasks using data the models had not yet seen. The Virtual Cell Challence in 2025 found similar results on a crowd sourced model evaluation for prediction in an unseen stem cell context [@url:https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up]. Translation to personalized medicine is an even more difficult goal. The prediction sets are out of distribution of the training data (i.e., transcriptional profiles from observational samples or interventions on immortalized cell lines.) Therefore,generalization is the bar these models must meet to impact personalized medicine. 
+The most recent iteration of AI models (‘foundation’ and ‘world’ models) is exciting, and the field is constantly putting out newer, larger models. 
+But the models do not generalize to out of distribution tests and do not outperform more simple models across tasks. 
+For example, Steiner et al. [@doi:10.1145/3701551.3708811] and Ahlmann-Eltze et al. [@doi:10.1038/s41592-025-02772-6] both reported that linear baselines outperformed single-cell foundation models [@doi:10.1038/s41592-024-02201-0; @doi:10.1038/s41586-023-06139-9; @doi:10.1038/s41592-024-02305-7; @doi:10.1038/s41587-023-01905-6; @doi:10.1038/s42256-022-00534-z] on downstream tasks using data the models had not yet seen. 
+The Virtual Cell Challence in 2025 found similar results on a crowd sourced model evaluation for prediction in an unseen stem cell context [@url:https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up]. 
+Translation to personalized medicine is an even more difficult goal. The prediction sets are out of distribution of the training data (i.e., transcriptional profiles from observational samples or interventions on immortalized cell lines.) 
+Therefore,generalization is the bar these models must meet to impact personalized medicine. 
 
-This proposal creates the evaluation framework for generalization to personalized medicine. We are recruiting collaborators to contribute more tasks to test out of distribution generalization. The collective would create the biomedical AI model “acid test” [@url:https://en.wikipedia.org/wiki/Acid2] for precision medicine, encouraging models to demonstrate their performance on the prospective releases of test data tranches. We will pair the continual evaluation results from the [companion repository](https://github.com/greenelab/fm-pm-evaluator) with the collaborative creation of a benchmarking manuscript. 
+This proposal creates the evaluation framework for generalization to personalized medicine. 
+We are recruiting collaborators to contribute more tasks to test out of distribution generalization. 
+The collective would create the biomedical AI model “acid test” [@url:https://en.wikipedia.org/wiki/Acid2] for precision medicine, encouraging models to demonstrate their performance on the prospective releases of test data tranches. 
+We will pair the continual evaluation results from the [companion repository](https://github.com/greenelab/fm-pm-evaluator) with the collaborative creation of a benchmarking manuscript. 
 
 
 ## Data tranches for model evaluation
