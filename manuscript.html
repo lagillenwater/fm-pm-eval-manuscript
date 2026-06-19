@@ -7,7 +7,7 @@
   <meta name="author" content="Lucas A. Gillenwater" />
   <meta name="dcterms.date" content="2026-06-19" />
   <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Evaluation of Foundation Model Generalization to Personalized Medicine</title>
+  <title>Prospective Evaluation of Foundation Model Performance in Precision Medicine</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -46,15 +46,15 @@
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Evaluation of Foundation Model Generalization to Personalized Medicine" />
-  <meta name="citation_title" content="Evaluation of Foundation Model Generalization to Personalized Medicine" />
-  <meta property="og:title" content="Evaluation of Foundation Model Generalization to Personalized Medicine" />
-  <meta property="twitter:title" content="Evaluation of Foundation Model Generalization to Personalized Medicine" />
+  <meta name="dc.title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
+  <meta name="citation_title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
+  <meta property="og:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
+  <meta property="twitter:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
   <meta name="dc.date" content="2026-06-19" />
   <meta name="citation_publication_date" content="2026-06-19" />
   <meta property="article:published_time" content="2026-06-19" />
-  <meta name="dc.modified" content="2026-06-19T22:11:31+00:00" />
-  <meta property="article:modified_time" content="2026-06-19T22:11:31+00:00" />
+  <meta name="dc.modified" content="2026-06-19T23:38:40+00:00" />
+  <meta property="article:modified_time" content="2026-06-19T23:38:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@
   <meta name="citation_fulltext_html_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_pdf_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/" />
-  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/" />
+  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,13 +85,13 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Evaluation of Foundation Model Generalization to Personalized Medicine</h1>
+<h1 class="title">Prospective Evaluation of Foundation Model Performance in Precision Medicine</h1>
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/291cda62d4fd05547ae2c2d0a4d1126355aaf710/">permalink</a>)
+(<a href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/291cda62d4fd05547ae2c2d0a4d1126355aaf710">lagillenwater/fm-pm-eval-manuscript@291cda6</a>
+from <a href="https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/9f0414571e3593976e9b535eea2083edf1ac8c5e">lagillenwater/fm-pm-eval-manuscript@9f04145</a>
 on June 19, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -105,7 +105,7 @@ on June 19, 2026.
 <br>
 <small>
 Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA
-· Funded by R01 HD109765 
+· Funded by R01 HD109765
 </small></li>
 </ul>
 <div id="correspondence">
@@ -115,15 +115,15 @@ Lucas A. Gillenwater &lt;lucas.gillenwater@cuanschutz.edu&gt;.</p>
 </div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <h2 id="introduction">Introduction</h2>
-<p>The most recent iteration of AI models (‘foundation’ and ‘world’ models) is exciting, and the field is constantly putting out newer, larger models.
-But the models do not generalize to out of distribution tests and do not outperform more simple models across tasks.
+<p>The most recent iteration of AI models (‘foundation’ and ‘world’ models) is exciting, and the field is constantly putting out newer, larger models; however, the models do not generalize to out-of-distribution tests and do not outperform simpler models across tasks.
 For example, Steiner et al. <span class="citation" data-cites="ZIYvNQ3W">[<a href="#ref-ZIYvNQ3W" role="doc-biblioref">1</a>]</span> and Ahlmann-Eltze et al. <span class="citation" data-cites="E9rUPYoV">[<a href="#ref-E9rUPYoV" role="doc-biblioref">2</a>]</span> both reported that linear baselines outperformed single-cell foundation models <span class="citation" data-cites="1BlKvjREs VmzWBJUJ s8IBxaN1 4smautjA jscGRhmq">[<a href="#ref-1BlKvjREs" role="doc-biblioref">3</a>,<a href="#ref-VmzWBJUJ" role="doc-biblioref">4</a>,<a href="#ref-s8IBxaN1" role="doc-biblioref">5</a>,<a href="#ref-4smautjA" role="doc-biblioref">6</a>,<a href="#ref-jscGRhmq" role="doc-biblioref">7</a>]</span> on downstream tasks using data the models had not yet seen.
-The Virtual Cell Challence in 2025 found similar results on a crowd sourced model evaluation for prediction in an unseen stem cell context <span class="citation" data-cites="Cf7kleLy">[<a href="#ref-Cf7kleLy" role="doc-biblioref">8</a>]</span>.
-Translation to personalized medicine is an even more difficult goal. The prediction sets are out of distribution of the training data (i.e., transcriptional profiles from observational samples or interventions on immortalized cell lines.)
-Therefore,generalization is the bar these models must meet to impact personalized medicine.</p>
-<p>This proposal creates the evaluation framework for generalization to personalized medicine.
-We are recruiting collaborators to contribute more tasks to test out of distribution generalization.
-The collective would create the biomedical AI model “acid test” <span class="citation" data-cites="t8XFU3BY">[<a href="#ref-t8XFU3BY" role="doc-biblioref">9</a>]</span> for precision medicine, encouraging models to demonstrate their performance on the prospective releases of test data tranches.
+The Virtual Cell Challenge in 2025 found similar results on a crowd sourced model evaluation for prediction in an unseen stem cell context <span class="citation" data-cites="Cf7kleLy">[<a href="#ref-Cf7kleLy" role="doc-biblioref">8</a>]</span>.
+Translation to personalized medicine is an even more difficult goal.
+The prediction sets are out-of-distribution of the training data (i.e., transcriptional profiles from observational samples or interventions on immortalized cell lines).
+Therefore, generalization is the bar these models must meet to impact personalized medicine.</p>
+<p>This proposal creates the evaluation framework to prospectively evaluate personalized medicine applications for foundation models, with a particular focus in precision oncology.
+We are recruiting collaborators to contribute across the evaluation framework: new tasks and held-out data tranches, foundation or world models to benchmark, and evaluation harnesses that adapt scoring to new phenotypes and modalities, all to test out-of-distribution generalization.
+Our goal is a precision medicine “acid test” <span class="citation" data-cites="t8XFU3BY">[<a href="#ref-t8XFU3BY" role="doc-biblioref">9</a>]</span> for foundation models, encouraging model builders and users to demonstrate their performance on the prospective releases of test data tranches.
 We will pair the continual evaluation results from the <a href="https://github.com/greenelab/fm-pm-evaluator">companion repository</a> with the collaborative creation of a benchmarking manuscript.</p>
 <h2 id="data-tranches-for-model-evaluation">Data tranches for model evaluation</h2>
 <p>Each tranche predicts response from pre-treatment expression.</p>

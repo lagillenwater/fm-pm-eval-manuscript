@@ -3,7 +3,6 @@ AUC
 benchmarking
 BTOM
 CellTiter
-Challence
 CRC
 Eltze
 explainability
@@ -18,6 +17,7 @@ organoid
 organoids
 PDO
 PDTO
+phenotypes
 Pre
 subtype
 transcriptional
