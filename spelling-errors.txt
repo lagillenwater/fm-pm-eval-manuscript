@@ -3,12 +3,14 @@ AUC
 benchmarking
 BTOM
 CellTiter
+cgreene
 CRC
 Eltze
 explainability
 fulvestrant
 Gillenwater
 Glo
+GreeneScientist
 HD
 lagillenwater
 LinkedIn
@@ -18,7 +20,7 @@ organoids
 PDO
 PDTO
 phenotypes
-Pre
+pre
 subtype
 transcriptional
 transcriptome

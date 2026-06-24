@@ -5,9 +5,10 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2026-06-19'
+date-meta: '2026-06-24'
 author-meta:
 - Lucas A. Gillenwater
+- Casey S. Greene
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -19,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
   <meta property="og:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
   <meta property="twitter:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
-  <meta name="dc.date" content="2026-06-19" />
-  <meta name="citation_publication_date" content="2026-06-19" />
-  <meta property="article:published_time" content="2026-06-19" />
-  <meta name="dc.modified" content="2026-06-19T23:38:40+00:00" />
-  <meta property="article:modified_time" content="2026-06-19T23:38:40+00:00" />
+  <meta name="dc.date" content="2026-06-24" />
+  <meta name="citation_publication_date" content="2026-06-24" />
+  <meta property="article:published_time" content="2026-06-24" />
+  <meta name="dc.modified" content="2026-06-24T16:22:30+00:00" />
+  <meta property="article:modified_time" content="2026-06-24T16:22:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -33,15 +34,20 @@ header-includes: |
   <meta name="citation_author" content="Lucas A. Gillenwater" />
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA" />
   <meta name="citation_author_orcid" content="0000-0002-6995-0130" />
+  <meta name="citation_author" content="Casey S. Greene" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA" />
+  <meta name="citation_author_institution" content="Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA" />
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+  <meta name="twitter:creator" content="@GreeneScientist" />
   <link rel="canonical" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta property="og:url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta property="twitter:url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_pdf_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/" />
-  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/" />
+  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -63,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/9f0414571e3593976e9b535eea2083edf1ac8c5e/))
+([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/))
 was automatically generated
-from [lagillenwater/fm-pm-eval-manuscript@9f04145](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/9f0414571e3593976e9b535eea2083edf1ac8c5e)
-on June 19, 2026.
+from [lagillenwater/fm-pm-eval-manuscript@7fec83f](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/7fec83f407d60758099462eac6e2835b1b5ba6fa)
+on June 24, 2026.
 </em></small>
 
 
@@ -87,11 +93,25 @@ on June 19, 2026.
      · Funded by R01 HD109765
   </small>
 
++ **Casey S. Greene**
+  ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [cgreene](https://github.com/cgreene)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [GreeneScientist](https://twitter.com/GreeneScientist)
+    <br>
+  <small>
+     Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA; Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA
+  </small>
+
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/lagillenwater/fm-pm-eval-manuscript/issues)
 or email to
-Lucas A. Gillenwater \<lucas.gillenwater@cuanschutz.edu\>.
+Lucas A. Gillenwater \<lucas.gillenwater@cuanschutz.edu\>, 
+Casey S. Greene \<casey.s.greene@cuanschutz.edu\>.
 
 
 :::
