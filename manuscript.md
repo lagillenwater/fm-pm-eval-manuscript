@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2026-06-24'
+date-meta: '2026-06-25'
 author-meta:
 - Lucas A. Gillenwater
 - Casey S. Greene
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
   <meta property="og:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
   <meta property="twitter:title" content="Prospective Evaluation of Foundation Model Performance in Precision Medicine" />
-  <meta name="dc.date" content="2026-06-24" />
-  <meta name="citation_publication_date" content="2026-06-24" />
-  <meta property="article:published_time" content="2026-06-24" />
-  <meta name="dc.modified" content="2026-06-24T16:22:30+00:00" />
-  <meta property="article:modified_time" content="2026-06-24T16:22:30+00:00" />
+  <meta name="dc.date" content="2026-06-25" />
+  <meta name="citation_publication_date" content="2026-06-25" />
+  <meta property="article:published_time" content="2026-06-25" />
+  <meta name="dc.modified" content="2026-06-25T21:09:07+00:00" />
+  <meta property="article:modified_time" content="2026-06-25T21:09:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/" />
   <meta name="citation_pdf_url" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/" />
-  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/" />
+  <meta name="manubot_html_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/))
+([permalink](https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/))
 was automatically generated
-from [lagillenwater/fm-pm-eval-manuscript@7fec83f](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/7fec83f407d60758099462eac6e2835b1b5ba6fa)
-on June 24, 2026.
+from [lagillenwater/fm-pm-eval-manuscript@3577ab8](https://github.com/lagillenwater/fm-pm-eval-manuscript/tree/3577ab856b57f643a3fc40126dde03bd56e685c4)
+on June 25, 2026.
 </em></small>
 
 
@@ -114,6 +114,14 @@ Lucas A. Gillenwater \<lucas.gillenwater@cuanschutz.edu\>,
 Casey S. Greene \<casey.s.greene@cuanschutz.edu\>.
 
 
+:::
+
+::: {.small}
+**Author contributions and ordering.**
+This is an open, collaborative manuscript.
+Authorship follows the ICMJE guidelines and requires a substantial intellectual contribution made through issues and pull requests, not only committed text.
+Author order is pre-registered: corresponding authors are listed as designated, and the remaining authors are ordered within their contribution category by a deterministic randomized procedure fixed before the author list is finalized [@doi:10.1371/journal.pcbi.1007128].
+See [`CONTRIBUTING.md`](https://github.com/greenelab/fm-pm-eval-manuscript/blob/main/CONTRIBUTING.md) for the contribution categories and the full rule.
 :::
 
 

@@ -12,6 +12,7 @@ Gillenwater
 Glo
 GreeneScientist
 HD
+ICMJE
 lagillenwater
 LinkedIn
 Oliphant
@@ -20,7 +21,7 @@ organoids
 PDO
 PDTO
 phenotypes
-pre
+Pre
 subtype
 transcriptional
 transcriptome

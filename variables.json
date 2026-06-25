@@ -7,12 +7,12 @@
       "manubot"
     ],
     "lang": "en-US",
-    "date-meta": "2026-06-24",
+    "date-meta": "2026-06-25",
     "author-meta": [
       "Lucas A. Gillenwater",
       "Casey S. Greene"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta name=\"citation_title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta property=\"og:title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta property=\"twitter:title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta name=\"dc.date\" content=\"2026-06-24\" />\n<meta name=\"citation_publication_date\" content=\"2026-06-24\" />\n<meta property=\"article:published_time\" content=\"2026-06-24\" />\n<meta name=\"dc.modified\" content=\"2026-06-24T16:22:30+00:00\" />\n<meta property=\"article:modified_time\" content=\"2026-06-24T16:22:30+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Lucas A. Gillenwater\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6995-0130\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<link rel=\"canonical\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta property=\"og:url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta name=\"citation_title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta property=\"og:title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta property=\"twitter:title\" content=\"Prospective Evaluation of Foundation Model Performance in Precision Medicine\" />\n<meta name=\"dc.date\" content=\"2026-06-25\" />\n<meta name=\"citation_publication_date\" content=\"2026-06-25\" />\n<meta property=\"article:published_time\" content=\"2026-06-25\" />\n<meta name=\"dc.modified\" content=\"2026-06-25T21:09:07+00:00\" />\n<meta property=\"article:modified_time\" content=\"2026-06-25T21:09:07+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Lucas A. Gillenwater\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6995-0130\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_institution\" content=\"Center for Health AI, University of Colorado School of Medicine, Aurora, CO, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<link rel=\"canonical\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta property=\"og:url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,10 +22,10 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "2026-06-24",
-    "date_long": "June 24, 2026",
-    "generated": "2026-06-24T16:22:30+00:00",
-    "generated_date_long": "June 24, 2026",
+    "date": "2026-06-25",
+    "date_long": "June 25, 2026",
+    "generated": "2026-06-25T21:09:07+00:00",
+    "generated_date_long": "June 25, 2026",
     "randomize_author_order": false,
     "authors": [
       {
@@ -78,19 +78,19 @@
       "repo_slug": "lagillenwater/fm-pm-eval-manuscript",
       "repo_owner": "lagillenwater",
       "repo_name": "fm-pm-eval-manuscript",
-      "commit": "7fec83f407d60758099462eac6e2835b1b5ba6fa",
-      "triggering_commit": "7fec83f407d60758099462eac6e2835b1b5ba6fa",
-      "build_url": "https://github.com/lagillenwater/fm-pm-eval-manuscript/commit/7fec83f407d60758099462eac6e2835b1b5ba6fa/checks",
-      "job_url": "https://github.com/lagillenwater/fm-pm-eval-manuscript/actions/runs/28113118752"
+      "commit": "3577ab856b57f643a3fc40126dde03bd56e685c4",
+      "triggering_commit": "3577ab856b57f643a3fc40126dde03bd56e685c4",
+      "build_url": "https://github.com/lagillenwater/fm-pm-eval-manuscript/commit/3577ab856b57f643a3fc40126dde03bd56e685c4/checks",
+      "job_url": "https://github.com/lagillenwater/fm-pm-eval-manuscript/actions/runs/28200589604"
     },
     "html_url": "https://lagillenwater.github.io/fm-pm-eval-manuscript/",
     "pdf_url": "https://lagillenwater.github.io/fm-pm-eval-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/",
-    "pdf_url_versioned": "https://lagillenwater.github.io/fm-pm-eval-manuscript/v/7fec83f407d60758099462eac6e2835b1b5ba6fa/manuscript.pdf",
+    "html_url_versioned": "https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/",
+    "pdf_url_versioned": "https://lagillenwater.github.io/fm-pm-eval-manuscript/v/3577ab856b57f643a3fc40126dde03bd56e685c4/manuscript.pdf",
     "manubot_version": "0.6.1",
     "rootstock_commit": "f44f9bbe35441a8acd51a5898e6e739acaf54c1c",
     "manuscript_stats": {
-      "word_count": 1172
+      "word_count": 1249
     }
   }
 }
